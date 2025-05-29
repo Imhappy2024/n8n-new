@@ -10,4 +10,4 @@ ENV N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=false
 
 EXPOSE 5678
 
-CMD ["/usr/local/lib/node_modules/n8n/bin/n8n"]
+# No CMD override — let n8nio/n8n handle it
